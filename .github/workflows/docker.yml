@@ -8,8 +8,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: docker build
-      run: docker  build ./ -t ganeshkrish/maven-web-application:1
-
+      run: docker  build ./ -t ganeshkrish/maven-web-application:1.
+ 
 
 
 

@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: docker build
-      run: docker  build ./docker-sample -t ganeshkrish/docker-samplemaven-web-application:1
+      run: docker  build /GaneshKrishna112/docker container/docker-sample -t ganeshkrish/docker-samplemaven-web-application:1
  
 
 
